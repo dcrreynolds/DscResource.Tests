@@ -149,7 +149,7 @@ try
                     {
                         if($noNewLineCount -eq 0)
                         {
-                            Write-Warning "To improve consistency across multiple environments and editors each text file is required to end with a new line."
+                            Write-Warning "In order to improve consistency across multiple environments and editors each text file is required to end with a new line."
                         }
 
                         Write-Warning "$($file.FullName) does not end with a new line. Use Fixer 'Add-NewLine'"
